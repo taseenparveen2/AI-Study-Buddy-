@@ -1,0 +1,35 @@
+# 🔐 Environment variables (VERY IMPORTANT)
+.env
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Virtual environment
+venv/
+.env/
+.envrc/
+
+# 🧪 VS Code settings (optional)
+.vscode/
+
+# 🗂️ System files
+.DS_Store
+Thumbs.db
+
+# 📄 Logs
+*.log
+
+# 🧠 Streamlit cache
+.streamlit/
+
+# 🗄️ Database / vector store (if created)
+*.db
+*.sqlite3
+faiss_index/
+chroma/
+
+# 🔑 API keys or secrets (extra safety)
+secrets.toml
