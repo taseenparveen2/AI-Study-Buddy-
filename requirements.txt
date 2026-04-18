@@ -2,8 +2,8 @@ streamlit
 langchain
 langchain-community
 langchain-core
-langchain-groq==0.1.5
+langchain-groq
 tavily-python
 python-dotenv
 faiss-cpu
-groq==0.9.0
+groq
