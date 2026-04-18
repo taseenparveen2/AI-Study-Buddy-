@@ -23,7 +23,7 @@ if user_input:
         output = explain(user_input, context)
 
     elif task == "quiz":
-        output = generate_quiz(user_input, context)
+        output = generate_quiz(user_input, 5)
 
     elif task == "doubt":
         output = solve_doubt(user_input, context)
